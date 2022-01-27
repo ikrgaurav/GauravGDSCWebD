@@ -257,50 +257,11 @@ margin-top: 6%;
   .bar .progress-line.gfx span{
     width: 50%;
   }
-  /*.progress-line span::before{
-    position: absolute;
-    content: "";
-    top: -10px;
-    right: 0;
-    height: 0;
-    width: 0;
-    border: 7px solid transparent;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
-    border-top-color: #000;
-    opacity: 0;
-    animation: showText2 0.5s 1.5s linear forwards;
-  }*/
-  /*.progress-line span::after{
-    position: absolute;
-    top: -28px;
-    right: 0;
-    font-weight: 500;
-    background: #000;
-    color: #fff;
-    padding: 1px 8px;
-    font-size: 12px;
-    border-radius: 3px;
-    opacity: 0;
-    animation: showText2 0.5s 1.5s linear forwards;
-  }*/
   @keyframes showText2 {
     100%{
       opacity: 1;
     }
   }
-  /*.logo.html span::after{
-    content: "90%";
-  }
-  .progress-line.css span::after{
-    content: "60%";
-  }
-  .progress-line.cpp span::after{
-    content: "85%";
-  }
-  .progress-line.gfx span::after{
-    content: "50%";*/
-  /* } */
 .skill-bars{
   align-self: center;
   margin-left: 25%;
