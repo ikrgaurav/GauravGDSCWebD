@@ -243,7 +243,7 @@ margin-top: 6%;
     border-radius: 10px;
     transform: scaleX(0);
     transform-origin: left;
-    background: #6665ee;
+    background: #d68bb6;
     animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
   }
   .bar .progress-line.html span{
